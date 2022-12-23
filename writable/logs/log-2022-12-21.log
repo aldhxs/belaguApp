@@ -1,0 +1,1690 @@
+CRITICAL - 2022-12-21 05:31:31 --> Invalid file: tempplate/login-nav.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tempplate/login-nav.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('tempplate/login-nav', [], true)
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('login.php', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('login.php')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 05:32:15 --> Undefined variable $title
+in APPPATH\Views\template\login-nav.php on line 11.
+ 1 APPPATH\Views\template\login-nav.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\template\\login-nav.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\login-nav.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('template/login-nav', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('login.php', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('login.php')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 05:37:40 --> Undefined variable $title
+in APPPATH\Views\template\login-nav.php on line 11.
+ 1 APPPATH\Views\template\login-nav.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\template\\login-nav.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\login-nav.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('template/login-nav', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('login.php', [], true)
+ 6 APPPATH\Controllers\Home.php(14): view('login.php')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 05:37:42 --> Undefined variable $title
+in APPPATH\Views\template\login-nav.php on line 11.
+ 1 APPPATH\Views\template\login-nav.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH\\Views\\template\\login-nav.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\login-nav.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('template/login-nav', [], true)
+ 5 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('login.php', [], true)
+ 6 APPPATH\Controllers\Home.php(14): view('login.php')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 05:38:12 --> Invalid file: layout/navArtikel.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/navArtikel.php')
+ 2 SYSTEMPATH\View\View.php(431): CodeIgniter\View\View->render('layout/navArtikel', null, true)
+ 3 APPPATH\Views\template\login-nav.php(16): CodeIgniter\View\View->include('layout/navArtikel')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\template\\login-nav.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('template/login-nav', [], true)
+ 7 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('login.php', [], true)
+ 8 APPPATH\Controllers\Home.php(14): view('login.php', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 10:47:06 --> Class "Time" not found
+in APPPATH\Views\template\nav.php on line 82.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('template/nav', [], true)
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home.php', [], true)
+ 5 APPPATH\Controllers\Home.php(14): view('home.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 10:47:31 --> Class "Time" not found
+in APPPATH\Views\template\nav.php on line 82.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('template/nav', [], true)
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home.php', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('home.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 10:47:32 --> Class "Time" not found
+in APPPATH\Views\template\nav.php on line 82.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('template/nav', [], true)
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home.php', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('home.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 11:33:34 --> Class "App\Models\ArtikelModel" not found
+in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 11:41:43 --> Cannot use object of type mysqli as array
+in APPPATH\Views\home.php on line 80.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home.php', [], true)
+ 4 APPPATH\Controllers\Home.php(21): view('home.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 11:42:29 --> Cannot use object of type stdClass as array
+in APPPATH\Views\home.php on line 80.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home.php', [], true)
+ 4 APPPATH\Controllers\Home.php(21): view('home.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 11:43:43 --> Undefined property: mysqli::$gambar
+in APPPATH\Views\home.php on line 80.
+ 1 APPPATH\Views\home.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$gambar', 'APPPATH\\Views\\home.php', 80)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home.php', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('home.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 11:46:28 --> Undefined property: stdClass::$newDate
+in APPPATH\Views\home.php on line 86.
+ 1 APPPATH\Views\home.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$newDate', 'APPPATH\\Views\\home.php', 86)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home.php', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('home.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 11:55:30 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\home.php on line 94.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home.php', [], true)
+ 3 APPPATH\Controllers\Home.php(21): view('home.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 12:16:44 --> Undefined property: stdClass::$jumlah_ticket
+in APPPATH\Views\home.php on line 36.
+ 1 APPPATH\Views\home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$jumlah_ticket', 'APPPATH\\Views\\home.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home.php', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('home.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 12:28:59 --> Attempt to read property "nama_local" on array
+in APPPATH\Views\home.php on line 56.
+ 1 APPPATH\Views\home.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_local" on array', 'APPPATH\\Views\\home.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home.php', [], true)
+ 5 APPPATH\Controllers\Home.php(22): view('home.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 12:29:16 --> Undefined array key "nama_local"
+in APPPATH\Views\home.php on line 56.
+ 1 APPPATH\Views\home.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_local"', 'APPPATH\\Views\\home.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home.php', [], true)
+ 5 APPPATH\Controllers\Home.php(22): view('home.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 12:29:20 --> Undefined array key "nama_local"
+in APPPATH\Views\home.php on line 56.
+ 1 APPPATH\Views\home.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_local"', 'APPPATH\\Views\\home.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home.php', [], true)
+ 5 APPPATH\Controllers\Home.php(22): view('home.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 12:49:40 --> Undefined property: App\Controllers\Rating::$homeModel
+in APPPATH\Controllers\Rating.php on line 20.
+ 1 APPPATH\Controllers\Rating.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Rating::$homeModel', 'APPPATH\\Controllers\\Rating.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 12:49:52 --> Undefined property: stdClass::$gambar
+in APPPATH\Views\rating.php on line 22.
+ 1 APPPATH\Views\rating.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$gambar', 'APPPATH\\Views\\rating.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rating.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rating.php', [], true)
+ 5 APPPATH\Controllers\Rating.php(23): view('rating.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 12:50:50 --> Undefined property: stdClass::$nama_konser
+in APPPATH\Views\rating.php on line 24.
+ 1 APPPATH\Views\rating.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_konser', 'APPPATH\\Views\\rating.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rating.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rating.php', [], true)
+ 5 APPPATH\Controllers\Rating.php(23): view('rating.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 12:57:46 --> Undefined property: stdClass::$nama_konser
+in APPPATH\Views\rating.php on line 24.
+ 1 APPPATH\Views\rating.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama_konser', 'APPPATH\\Views\\rating.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rating.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rating.php', [], true)
+ 5 APPPATH\Controllers\Rating.php(23): view('rating.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 12:58:18 --> Undefined property: stdClass::$gambar
+in APPPATH\Views\rating.php on line 22.
+ 1 APPPATH\Views\rating.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$gambar', 'APPPATH\\Views\\rating.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rating.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rating.php', [], true)
+ 5 APPPATH\Controllers\Rating.php(23): view('rating.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 12:58:28 --> Undefined variable $t
+in APPPATH\Views\rating.php on line 26.
+ 1 APPPATH\Views\rating.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $t', 'APPPATH\\Views\\rating.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rating.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rating.php', [], true)
+ 5 APPPATH\Controllers\Rating.php(23): view('rating.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 12:58:42 --> Undefined variable $t
+in APPPATH\Views\rating.php on line 26.
+ 1 APPPATH\Views\rating.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $t', 'APPPATH\\Views\\rating.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rating.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rating.php', [], true)
+ 5 APPPATH\Controllers\Rating.php(23): view('rating.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 12:58:46 --> Undefined variable $t
+in APPPATH\Views\rating.php on line 26.
+ 1 APPPATH\Views\rating.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $t', 'APPPATH\\Views\\rating.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rating.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rating.php', [], true)
+ 5 APPPATH\Controllers\Rating.php(23): view('rating.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 12:58:51 --> Undefined variable $t
+in APPPATH\Views\rating.php on line 26.
+ 1 APPPATH\Views\rating.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $t', 'APPPATH\\Views\\rating.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rating.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rating.php', [], true)
+ 5 APPPATH\Controllers\Rating.php(23): view('rating.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 12:59:46 --> Undefined property: stdClass::$gambar
+in APPPATH\Views\rating.php on line 22.
+ 1 APPPATH\Views\rating.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$gambar', 'APPPATH\\Views\\rating.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rating.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rating.php', [], true)
+ 5 APPPATH\Controllers\Rating.php(23): view('rating.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 12:59:56 --> Undefined property: stdClass::$gambar
+in APPPATH\Views\rating.php on line 22.
+ 1 APPPATH\Views\rating.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$gambar', 'APPPATH\\Views\\rating.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rating.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rating.php', [], true)
+ 5 APPPATH\Controllers\Rating.php(23): view('rating.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 12:59:59 --> Undefined property: stdClass::$gambar
+in APPPATH\Views\rating.php on line 22.
+ 1 APPPATH\Views\rating.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$gambar', 'APPPATH\\Views\\rating.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rating.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rating.php', [], true)
+ 5 APPPATH\Controllers\Rating.php(23): view('rating.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 13:05:32 --> Undefined property: stdClass::$gambar
+in APPPATH\Views\rating.php on line 22.
+ 1 APPPATH\Views\rating.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$gambar', 'APPPATH\\Views\\rating.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rating.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rating.php', [], true)
+ 5 APPPATH\Controllers\Rating.php(23): view('rating.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 13:05:41 --> Undefined property: stdClass::$gambar
+in APPPATH\Views\rating.php on line 22.
+ 1 APPPATH\Views\rating.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$gambar', 'APPPATH\\Views\\rating.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rating.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rating.php', [], true)
+ 5 APPPATH\Controllers\Rating.php(23): view('rating.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 13:06:04 --> Call to a member function join() on array
+in APPPATH\Models\RatingModel.php on line 19.
+ 1 APPPATH\Controllers\Rating.php(20): App\Models\RatingModel->getRating()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 13:06:25 --> Undefined property: stdClass::$gambar
+in APPPATH\Views\rating.php on line 22.
+ 1 APPPATH\Views\rating.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$gambar', 'APPPATH\\Views\\rating.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rating.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rating.php', [], true)
+ 5 APPPATH\Controllers\Rating.php(23): view('rating.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 13:07:09 --> Undefined property: stdClass::$gambar
+in APPPATH\Views\rating.php on line 22.
+ 1 APPPATH\Views\rating.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$gambar', 'APPPATH\\Views\\rating.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rating.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rating.php', [], true)
+ 5 APPPATH\Controllers\Rating.php(23): view('rating.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 13:13:25 --> Undefined property: stdClass::$gambar
+in APPPATH\Views\rating.php on line 22.
+ 1 APPPATH\Views\rating.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$gambar', 'APPPATH\\Views\\rating.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rating.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rating.php', [], true)
+ 5 APPPATH\Controllers\Rating.php(23): view('rating.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 13:13:27 --> Undefined property: stdClass::$gambar
+in APPPATH\Views\rating.php on line 22.
+ 1 APPPATH\Views\rating.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$gambar', 'APPPATH\\Views\\rating.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rating.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rating.php', [], true)
+ 5 APPPATH\Controllers\Rating.php(23): view('rating.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 13:15:10 --> Undefined property: stdClass::$gambar
+in APPPATH\Views\rating.php on line 22.
+ 1 APPPATH\Views\rating.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$gambar', 'APPPATH\\Views\\rating.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rating.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rating.php', [], true)
+ 5 APPPATH\Controllers\Rating.php(23): view('rating.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 13:15:11 --> Undefined property: stdClass::$gambar
+in APPPATH\Views\rating.php on line 22.
+ 1 APPPATH\Views\rating.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$gambar', 'APPPATH\\Views\\rating.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rating.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rating.php', [], true)
+ 5 APPPATH\Controllers\Rating.php(23): view('rating.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 13:15:12 --> Undefined property: stdClass::$gambar
+in APPPATH\Views\rating.php on line 22.
+ 1 APPPATH\Views\rating.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$gambar', 'APPPATH\\Views\\rating.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rating.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rating.php', [], true)
+ 5 APPPATH\Controllers\Rating.php(23): view('rating.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 13:16:47 --> Undefined property: stdClass::$gambar
+in APPPATH\Views\rating.php on line 22.
+ 1 APPPATH\Views\rating.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$gambar', 'APPPATH\\Views\\rating.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rating.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rating.php', [], true)
+ 5 APPPATH\Controllers\Rating.php(23): view('rating.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 13:19:25 --> Undefined variable $local
+in APPPATH\Views\coming-up.php on line 15.
+ 1 APPPATH\Views\coming-up.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $local', 'APPPATH\\Views\\coming-up.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\coming-up.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('coming-up.php', [], true)
+ 5 APPPATH\Controllers\Coming.php(14): view('coming-up.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Coming->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Coming))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 13:30:22 --> Undefined property: stdClass::$gambar
+in APPPATH\Views\rating.php on line 22.
+ 1 APPPATH\Views\rating.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$gambar', 'APPPATH\\Views\\rating.php', 22)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rating.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rating.php', [], true)
+ 5 APPPATH\Controllers\Rating.php(23): view('rating.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 13:51:16 --> Undefined variable $t
+in APPPATH\Views\rating.php on line 26.
+ 1 APPPATH\Views\rating.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $t', 'APPPATH\\Views\\rating.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rating.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rating.php', [], true)
+ 5 APPPATH\Controllers\Rating.php(23): view('rating.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-21 14:30:58 --> mysqli_sql_exception: Unknown column 'transaction.id_local' in 'on clause' in C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\belaguApp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\belaguApp\app\Models\TransactionModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\belaguApp\app\Controllers\Transaction.php(20): App\Models\TransactionModel->getTransaction()
+#6 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(927): App\Controllers\Transaction->index()
+#7 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#8 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\belaguApp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\belaguApp\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-12-21 14:30:58 --> Unknown column 'transaction.id_local' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `transaction`
+JOIN `local` ON `transaction`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `transaction`.`id_genre` = `genre`.`id_genre`
+JOIN `ticket` ON `transaction`.`id_ticket` = `ticket`.`id_ticket`
+ORDER BY `tgl` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `transaction`
+JOIN `local` ON `transaction`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `transaction`.`id_genre` = `genre`.`id_genre`
+JOIN `ticket` ON `transaction`.`id_ticket` = `ticket`.`id_ticket`
+ORDER BY `tgl` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `transaction`
+JOIN `local` ON `transaction`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `transaction`.`id_genre` = `genre`.`id_genre`
+JOIN `ticket` ON `transaction`.`id_ticket` = `ticket`.`id_ticket`
+ORDER BY `tgl` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transaction`
+JOIN `local` ON `transaction`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `transaction`.`id_genre` = `genre`.`id_genre`
+JOIN `ticket` ON `transaction`.`id_ticket` = `ticket`.`id_ticket`
+ORDER BY `tgl` DESC', [], false)
+ 5 APPPATH\Models\TransactionModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Transaction.php(20): App\Models\TransactionModel->getTransaction()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaction->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-21 14:31:44 --> mysqli_sql_exception: Unknown column 'transaction.id_local' in 'on clause' in C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\belaguApp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\belaguApp\app\Models\TransactionModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\belaguApp\app\Controllers\Transaction.php(18): App\Models\TransactionModel->getTransaction()
+#6 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(927): App\Controllers\Transaction->index()
+#7 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#8 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\belaguApp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\belaguApp\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-12-21 14:31:44 --> Unknown column 'transaction.id_local' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `transaction`
+JOIN `local` ON `transaction`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `transaction`.`id_genre` = `genre`.`id_genre`
+JOIN `ticket` ON `transaction`.`id_ticket` = `ticket`.`id_ticket`
+ORDER BY `tgl` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `transaction`
+JOIN `local` ON `transaction`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `transaction`.`id_genre` = `genre`.`id_genre`
+JOIN `ticket` ON `transaction`.`id_ticket` = `ticket`.`id_ticket`
+ORDER BY `tgl` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `transaction`
+JOIN `local` ON `transaction`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `transaction`.`id_genre` = `genre`.`id_genre`
+JOIN `ticket` ON `transaction`.`id_ticket` = `ticket`.`id_ticket`
+ORDER BY `tgl` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transaction`
+JOIN `local` ON `transaction`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `transaction`.`id_genre` = `genre`.`id_genre`
+JOIN `ticket` ON `transaction`.`id_ticket` = `ticket`.`id_ticket`
+ORDER BY `tgl` DESC', [], false)
+ 5 APPPATH\Models\TransactionModel.php(22): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Transaction.php(18): App\Models\TransactionModel->getTransaction()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaction->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-21 14:32:30 --> mysqli_sql_exception: Column 'tgl' in order clause is ambiguous in C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\belaguApp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\belaguApp\app\Models\TransactionModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\belaguApp\app\Controllers\Transaction.php(18): App\Models\TransactionModel->getTransaction()
+#6 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(927): App\Controllers\Transaction->index()
+#7 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+#8 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\belaguApp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\belaguApp\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-12-21 14:32:30 --> Column 'tgl' in order clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `transaction`
+JOIN `user` ON `transaction`.`id_user` = `user`.`id_user`
+JOIN `ticket` ON `transaction`.`id_ticket` = `ticket`.`id_ticket`
+ORDER BY `tgl` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `transaction`
+JOIN `user` ON `transaction`.`id_user` = `user`.`id_user`
+JOIN `ticket` ON `transaction`.`id_ticket` = `ticket`.`id_ticket`
+ORDER BY `tgl` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `transaction`
+JOIN `user` ON `transaction`.`id_user` = `user`.`id_user`
+JOIN `ticket` ON `transaction`.`id_ticket` = `ticket`.`id_ticket`
+ORDER BY `tgl` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transaction`
+JOIN `user` ON `transaction`.`id_user` = `user`.`id_user`
+JOIN `ticket` ON `transaction`.`id_ticket` = `ticket`.`id_ticket`
+ORDER BY `tgl` DESC', [], false)
+ 5 APPPATH\Models\TransactionModel.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Transaction.php(18): App\Models\TransactionModel->getTransaction()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaction->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 14:33:04 --> Undefined variable $trasanction
+in APPPATH\Views\transaction.php on line 26.
+ 1 APPPATH\Views\transaction.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $trasanction', 'APPPATH\\Views\\transaction.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\transaction.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('transaction.php', [], true)
+ 5 APPPATH\Controllers\Transaction.php(20): view('transaction.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaction->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaction))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 16:06:33 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Home.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 16:14:11 --> Undefined array key "nama_konser"
+in APPPATH\Views\detail.php on line 8.
+ 1 APPPATH\Views\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_konser"', 'APPPATH\\Views\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('detail.php', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('detail.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 16:14:27 --> Attempt to read property "nama_konser" on array
+in APPPATH\Views\detail.php on line 8.
+ 1 APPPATH\Views\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_konser" on array', 'APPPATH\\Views\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('detail.php', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('detail.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 16:14:57 --> Attempt to read property "nama_konser" on array
+in APPPATH\Views\detail.php on line 8.
+ 1 APPPATH\Views\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_konser" on array', 'APPPATH\\Views\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('detail.php', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('detail.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 16:16:19 --> Attempt to read property "nama_konser" on array
+in APPPATH\Views\detail.php on line 8.
+ 1 APPPATH\Views\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_konser" on array', 'APPPATH\\Views\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('detail.php', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('detail.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 16:16:30 --> Trying to access array offset on value of type null
+in APPPATH\Views\detail.php on line 8.
+ 1 APPPATH\Views\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('detail.php', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('detail.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('public', 'FCPATH\\img', 'kerlip.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 16:17:31 --> Call to a member function join() on array
+in APPPATH\Models\HomeModel.php on line 23.
+ 1 APPPATH\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 16:17:43 --> Call to a member function join() on array
+in APPPATH\Models\HomeModel.php on line 23.
+ 1 APPPATH\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 16:18:04 --> Call to a member function join() on array
+in APPPATH\Models\HomeModel.php on line 23.
+ 1 APPPATH\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 16:18:07 --> Call to a member function join() on array
+in APPPATH\Models\HomeModel.php on line 23.
+ 1 APPPATH\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 16:18:34 --> Attempt to read property "nama_konser" on array
+in APPPATH\Views\detail.php on line 8.
+ 1 APPPATH\Views\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_konser" on array', 'APPPATH\\Views\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('detail.php', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('detail.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-21 16:21:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_ticket=2`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`i...' at line 1 in C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\belaguApp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\belaguApp\app\Models\HomeModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\belaguApp\app\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+#6 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+#7 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\belaguApp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\belaguApp\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-12-21 16:21:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_ticket=2`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`i...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT * FROM ticket WHERE` `ticket`.`id_ticket=2`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `ticket`.`id_genre` = `genre`.`id_genre`
+JOIN `artist` ON `ticket`.`id_artist` = `artist`.`id_artist`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT * FROM ticket WHERE` `ticket`.`id_ticket=2`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `ticket`.`id_genre` = `genre`.`id_genre`
+JOIN `artist` ON `ticket`.`id_artist` = `artist`.`id_artist`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT * FROM ticket WHERE` `ticket`.`id_ticket=2`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `ticket`.`id_genre` = `genre`.`id_genre`
+JOIN `artist` ON `ticket`.`id_artist` = `artist`.`id_artist`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT * FROM ticket WHERE` `ticket`.`id_ticket=2`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `ticket`.`id_genre` = `genre`.`id_genre`
+JOIN `artist` ON `ticket`.`id_artist` = `artist`.`id_artist`', [], false)
+ 5 APPPATH\Models\HomeModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-21 16:22:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_ticket=2`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`i...' at line 1 in C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\belaguApp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\belaguApp\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\belaguApp\app\Models\HomeModel.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\belaguApp\app\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+#7 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+#8 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\belaguApp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\belaguApp\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-12-21 16:22:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_ticket=2`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`i...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT * FROM ticket WHERE` `ticket`.`id_ticket=2`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `ticket`.`id_genre` = `genre`.`id_genre`
+JOIN `artist` ON `ticket`.`id_artist` = `artist`.`id_artist`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT * FROM ticket WHERE` `ticket`.`id_ticket=2`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `ticket`.`id_genre` = `genre`.`id_genre`
+JOIN `artist` ON `ticket`.`id_artist` = `artist`.`id_artist`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT * FROM ticket WHERE` `ticket`.`id_ticket=2`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `ticket`.`id_genre` = `genre`.`id_genre`
+JOIN `artist` ON `ticket`.`id_artist` = `artist`.`id_artist`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT * FROM ticket WHERE` `ticket`.`id_ticket=2`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `ticket`.`id_genre` = `genre`.`id_genre`
+JOIN `artist` ON `ticket`.`id_artist` = `artist`.`id_artist`', [], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\HomeModel.php(26): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-21 16:22:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_ticket``=2`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`....' at line 1 in C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\belaguApp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\belaguApp\app\Models\HomeModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\belaguApp\app\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+#6 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+#7 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\belaguApp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\belaguApp\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-12-21 16:22:44 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_ticket``=2`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`....' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT * FROM ``ticket`` WHERE` `ticket`.`id_ticket``=2`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `ticket`.`id_genre` = `genre`.`id_genre`
+JOIN `artist` ON `ticket`.`id_artist` = `artist`.`id_artist`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT * FROM ``ticket`` WHERE` `ticket`.`id_ticket``=2`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `ticket`.`id_genre` = `genre`.`id_genre`
+JOIN `artist` ON `ticket`.`id_artist` = `artist`.`id_artist`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT * FROM ``ticket`` WHERE` `ticket`.`id_ticket``=2`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `ticket`.`id_genre` = `genre`.`id_genre`
+JOIN `artist` ON `ticket`.`id_artist` = `artist`.`id_artist`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT * FROM ``ticket`` WHERE` `ticket`.`id_ticket``=2`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `ticket`.`id_genre` = `genre`.`id_genre`
+JOIN `artist` ON `ticket`.`id_artist` = `artist`.`id_artist`', [], false)
+ 5 APPPATH\Models\HomeModel.php(26): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-21 16:33:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_local`
+FROM `ticket`' at line 1 in C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\belaguApp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\belaguApp\app\Models\HomeModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\belaguApp\app\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+#6 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+#7 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\belaguApp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\belaguApp\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-12-21 16:33:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_local`
+FROM `ticket`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT * FROM ticket WHERE ticket`.`id_ticket=2 INNER JOIN ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT * FROM ticket WHERE ticket`.`id_ticket=2 INNER JOIN ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT * FROM ticket WHERE ticket`.`id_ticket=2 INNER JOIN ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT * FROM ticket WHERE ticket`.`id_ticket=2 INNER JOIN ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`', [], false)
+ 5 APPPATH\Models\HomeModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-21 16:34:09 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_local`
+FROM `ticket`' at line 1 in C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\belaguApp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\belaguApp\app\Models\HomeModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\belaguApp\app\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+#6 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+#7 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\belaguApp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\belaguApp\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-12-21 16:34:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_local`
+FROM `ticket`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT * FROM ``ticket`` WHERE ticket`.`id_ticket=2 INNER JOIN ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT * FROM ``ticket`` WHERE ticket`.`id_ticket=2 INNER JOIN ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT * FROM ``ticket`` WHERE ticket`.`id_ticket=2 INNER JOIN ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT * FROM ``ticket`` WHERE ticket`.`id_ticket=2 INNER JOIN ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`', [], false)
+ 5 APPPATH\Models\HomeModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-21 16:34:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_local`
+FROM `ticket`' at line 1 in C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\belaguApp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\belaguApp\app\Models\HomeModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\belaguApp\app\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+#6 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+#7 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\belaguApp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\belaguApp\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-12-21 16:34:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_local`
+FROM `ticket`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT * FROM ``ticket`` WHERE ticket`.`id_ticket=2 INNER JOIN ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT * FROM ``ticket`` WHERE ticket`.`id_ticket=2 INNER JOIN ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT * FROM ``ticket`` WHERE ticket`.`id_ticket=2 INNER JOIN ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT * FROM ``ticket`` WHERE ticket`.`id_ticket=2 INNER JOIN ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`', [], false)
+ 5 APPPATH\Models\HomeModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-21 16:34:50 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_local`
+FROM `ticket`' at line 1 in C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\belaguApp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\belaguApp\app\Models\HomeModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\belaguApp\app\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+#6 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+#7 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\belaguApp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\belaguApp\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-12-21 16:34:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_local`
+FROM `ticket`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT * FROM ``ticket`` WHERE ticket`.`id_ticket=2 INNER JOIN ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT * FROM ``ticket`` WHERE ticket`.`id_ticket=2 INNER JOIN ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT * FROM ``ticket`` WHERE ticket`.`id_ticket=2 INNER JOIN ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT * FROM ``ticket`` WHERE ticket`.`id_ticket=2 INNER JOIN ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`', [], false)
+ 5 APPPATH\Models\HomeModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-21 16:36:01 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_local`
+FROM `ticket`' at line 1 in C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\belaguApp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\belaguApp\app\Models\HomeModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\belaguApp\app\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+#6 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+#7 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\belaguApp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\belaguApp\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-12-21 16:36:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_local`
+FROM `ticket`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT * FROM ``ticket`` WHERE ticket`.`id_ticket=2 INNER JOIN ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT * FROM ``ticket`` WHERE ticket`.`id_ticket=2 INNER JOIN ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT * FROM ``ticket`` WHERE ticket`.`id_ticket=2 INNER JOIN ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT * FROM ``ticket`` WHERE ticket`.`id_ticket=2 INNER JOIN ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`', [], false)
+ 5 APPPATH\Models\HomeModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-21 16:36:02 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_local`
+FROM `ticket`' at line 1 in C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\belaguApp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\belaguApp\app\Models\HomeModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\belaguApp\app\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+#6 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+#7 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\belaguApp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\belaguApp\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-12-21 16:36:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_local`
+FROM `ticket`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT * FROM ``ticket`` WHERE ticket`.`id_ticket=2 INNER JOIN ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT * FROM ``ticket`` WHERE ticket`.`id_ticket=2 INNER JOIN ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT * FROM ``ticket`` WHERE ticket`.`id_ticket=2 INNER JOIN ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT * FROM ``ticket`` WHERE ticket`.`id_ticket=2 INNER JOIN ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`', [], false)
+ 5 APPPATH\Models\HomeModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-21 16:36:26 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_local`
+FROM `ticket`' at line 1 in C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\belaguApp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\belaguApp\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\belaguApp\app\Models\HomeModel.php(27): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\belaguApp\app\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+#7 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+#8 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\belaguApp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\belaguApp\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-12-21 16:36:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_local`
+FROM `ticket`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT * FROM ``ticket`` WHERE ``ticket`.`id_ticket=2 INNER JOIN ``ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT * FROM ``ticket`` WHERE ``ticket`.`id_ticket=2 INNER JOIN ``ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT * FROM ``ticket`` WHERE ``ticket`.`id_ticket=2 INNER JOIN ``ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT * FROM ``ticket`` WHERE ``ticket`.`id_ticket=2 INNER JOIN ``ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`', [], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\HomeModel.php(27): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-21 16:36:28 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_local`
+FROM `ticket`' at line 1 in C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\belaguApp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\belaguApp\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\belaguApp\app\Models\HomeModel.php(27): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\belaguApp\app\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+#7 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+#8 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\belaguApp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\belaguApp\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-12-21 16:36:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_local`
+FROM `ticket`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT * FROM ``ticket`` WHERE ``ticket`.`id_ticket=2 INNER JOIN ``ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT * FROM ``ticket`` WHERE ``ticket`.`id_ticket=2 INNER JOIN ``ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT * FROM ``ticket`` WHERE ``ticket`.`id_ticket=2 INNER JOIN ``ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT * FROM ``ticket`` WHERE ``ticket`.`id_ticket=2 INNER JOIN ``ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`', [], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\HomeModel.php(27): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-21 16:36:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_ticket=2`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`i...' at line 1 in C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\belaguApp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\belaguApp\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\belaguApp\app\Models\HomeModel.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\belaguApp\app\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+#7 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+#8 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\belaguApp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\belaguApp\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-12-21 16:36:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_ticket=2`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`i...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT * FROM ``ticket`` WHERE` `ticket`.`id_ticket=2`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `ticket`.`id_genre` = `genre`.`id_genre`
+JOIN `artist` ON `ticket`.`id_artist` = `artist`.`id_artist`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT * FROM ``ticket`` WHERE` `ticket`.`id_ticket=2`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `ticket`.`id_genre` = `genre`.`id_genre`
+JOIN `artist` ON `ticket`.`id_artist` = `artist`.`id_artist`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT * FROM ``ticket`` WHERE` `ticket`.`id_ticket=2`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `ticket`.`id_genre` = `genre`.`id_genre`
+JOIN `artist` ON `ticket`.`id_artist` = `artist`.`id_artist`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT * FROM ``ticket`` WHERE` `ticket`.`id_ticket=2`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `ticket`.`id_genre` = `genre`.`id_genre`
+JOIN `artist` ON `ticket`.`id_artist` = `artist`.`id_artist`', [], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\HomeModel.php(26): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-21 16:37:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_local`
+FROM `ticket`' at line 1 in C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\belaguApp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\belaguApp\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\belaguApp\app\Models\HomeModel.php(27): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\belaguApp\app\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+#7 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+#8 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\belaguApp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\belaguApp\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-12-21 16:37:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_local`
+FROM `ticket`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT * FROM ``ticket`` WHERE ``ticket`.`id_ticket=2 INNER JOIN ``local`` ON ``ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT * FROM ``ticket`` WHERE ``ticket`.`id_ticket=2 INNER JOIN ``local`` ON ``ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT * FROM ``ticket`` WHERE ``ticket`.`id_ticket=2 INNER JOIN ``local`` ON ``ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT * FROM ``ticket`` WHERE ``ticket`.`id_ticket=2 INNER JOIN ``local`` ON ``ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`', [], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\HomeModel.php(27): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-21 16:37:37 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_local`
+FROM `ticket`' at line 1 in C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT ...', 0)
+#1 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT ...')
+#2 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT ...')
+#3 C:\xampp\htdocs\belaguApp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT ...', Array, false)
+#4 C:\xampp\htdocs\belaguApp\system\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\belaguApp\app\Models\HomeModel.php(27): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\belaguApp\app\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+#7 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+#8 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\belaguApp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\belaguApp\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-12-21 16:37:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.`id_local`
+FROM `ticket`' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `SELECT * FROM ``ticket`` WHERE ``ticket`.`id_ticket=2 INNER JOIN ``local`` ON ``ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `SELECT * FROM ``ticket`` WHERE ``ticket`.`id_ticket=2 INNER JOIN ``local`` ON ``ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `SELECT * FROM ``ticket`` WHERE ``ticket`.`id_ticket=2 INNER JOIN ``local`` ON ``ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `SELECT * FROM ``ticket`` WHERE ``ticket`.`id_ticket=2 INNER JOIN ``local`` ON ``ticket`.`id_local =` `local`.`id_local`
+FROM `ticket`', [], false)
+ 5 SYSTEMPATH\Model.php(772): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\HomeModel.php(27): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 16:40:27 --> Call to undefined method App\Models\HomeModel::getResult
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Home.php(33): CodeIgniter\Model->__call('getResult', [])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 16:41:11 --> Cannot use object of type App\Models\HomeModel as array
+in APPPATH\Views\detail.php on line 8.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('detail.php', [], true)
+ 4 APPPATH\Controllers\Home.php(35): view('detail.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 16:42:21 --> Attempt to read property "nama_konser" on array
+in APPPATH\Views\detail.php on line 8.
+ 1 APPPATH\Views\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_konser" on array', 'APPPATH\\Views\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('detail.php', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('detail.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-21 16:42:52 --> mysqli_sql_exception: Unknown column 'ticket' in 'field list' in C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket`...', 0)
+#1 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket`...')
+#2 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket`...')
+#3 C:\xampp\htdocs\belaguApp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket`...', Array, false)
+#4 C:\xampp\htdocs\belaguApp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\belaguApp\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\belaguApp\app\Models\HomeModel.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\belaguApp\app\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+#8 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+#9 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\belaguApp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\belaguApp\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-12-21 16:42:52 --> Unknown column 'ticket' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `ticket`.`id_genre` = `genre`.`id_genre`
+JOIN `artist` ON `ticket`.`id_artist` = `artist`.`id_artist`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `ticket`.`id_genre` = `genre`.`id_genre`
+JOIN `artist` ON `ticket`.`id_artist` = `artist`.`id_artist`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `ticket`.`id_genre` = `genre`.`id_genre`
+JOIN `artist` ON `ticket`.`id_artist` = `artist`.`id_artist`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `ticket`.`id_genre` = `genre`.`id_genre`
+JOIN `artist` ON `ticket`.`id_artist` = `artist`.`id_artist`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\HomeModel.php(26): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-21 16:42:53 --> mysqli_sql_exception: Unknown column 'ticket' in 'field list' in C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\belaguApp\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket`...', 0)
+#1 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket`...')
+#2 C:\xampp\htdocs\belaguApp\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket`...')
+#3 C:\xampp\htdocs\belaguApp\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket`...', Array, false)
+#4 C:\xampp\htdocs\belaguApp\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\belaguApp\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\belaguApp\app\Models\HomeModel.php(26): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\belaguApp\app\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+#8 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+#9 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\belaguApp\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\belaguApp\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\belaguApp\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-12-21 16:42:53 --> Unknown column 'ticket' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `ticket`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `ticket`.`id_genre` = `genre`.`id_genre`
+JOIN `artist` ON `ticket`.`id_artist` = `artist`.`id_artist`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `ticket`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `ticket`.`id_genre` = `genre`.`id_genre`
+JOIN `artist` ON `ticket`.`id_artist` = `artist`.`id_artist`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `ticket`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `ticket`.`id_genre` = `genre`.`id_genre`
+JOIN `artist` ON `ticket`.`id_artist` = `artist`.`id_artist`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `ticket`
+FROM `ticket`
+JOIN `local` ON `ticket`.`id_local` = `local`.`id_local`
+JOIN `genre` ON `ticket`.`id_genre` = `genre`.`id_genre`
+JOIN `artist` ON `ticket`.`id_artist` = `artist`.`id_artist`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\HomeModel.php(26): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 16:43:46 --> Attempt to read property "nama_konser" on array
+in APPPATH\Views\detail.php on line 8.
+ 1 APPPATH\Views\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_konser" on array', 'APPPATH\\Views\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('detail.php', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('detail.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 16:58:52 --> Attempt to read property "nama_konser" on array
+in APPPATH\Views\detail.php on line 8.
+ 1 APPPATH\Views\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_konser" on array', 'APPPATH\\Views\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('detail.php', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('detail.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 16:58:54 --> Attempt to read property "nama_konser" on array
+in APPPATH\Views\detail.php on line 8.
+ 1 APPPATH\Views\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_konser" on array', 'APPPATH\\Views\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('detail.php', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('detail.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 21:38:11 --> Attempt to read property "nama_konser" on array
+in APPPATH\Views\detail.php on line 8.
+ 1 APPPATH\Views\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_konser" on array', 'APPPATH\\Views\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('detail.php', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('detail.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 21:38:30 --> Attempt to read property "nama_konser" on array
+in APPPATH\Views\detail.php on line 8.
+ 1 APPPATH\Views\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_konser" on array', 'APPPATH\\Views\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('detail.php', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('detail.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 21:38:51 --> Undefined array key "nama_konser"
+in APPPATH\Views\detail.php on line 8.
+ 1 APPPATH\Views\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_konser"', 'APPPATH\\Views\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('detail.php', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('detail.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 21:43:09 --> Undefined variable $result
+in APPPATH\Models\HomeModel.php on line 28.
+ 1 APPPATH\Models\HomeModel.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'APPPATH\\Models\\HomeModel.php', 28)
+ 2 APPPATH\Controllers\Home.php(33): App\Models\HomeModel->getTicket('2')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 21:43:19 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+in APPPATH\Views\detail.php on line 8.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('detail.php', [], true)
+ 4 APPPATH\Controllers\Home.php(35): view('detail.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 21:43:59 --> Attempt to read property "nama_konser" on array
+in APPPATH\Views\detail.php on line 8.
+ 1 APPPATH\Views\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_konser" on array', 'APPPATH\\Views\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('detail.php', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('detail.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 21:45:02 --> Attempt to read property "nama_konser" on array
+in APPPATH\Views\detail.php on line 8.
+ 1 APPPATH\Views\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_konser" on array', 'APPPATH\\Views\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('detail.php', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('detail.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 21:46:02 --> Attempt to read property "nama_konser" on array
+in APPPATH\Views\detail.php on line 8.
+ 1 APPPATH\Views\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_konser" on array', 'APPPATH\\Views\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('detail.php', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('detail.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 21:47:33 --> Call to a member function getResult() on array
+in APPPATH\Controllers\Home.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 21:47:49 --> Attempt to read property "nama_konser" on array
+in APPPATH\Views\detail.php on line 8.
+ 1 APPPATH\Views\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "nama_konser" on array', 'APPPATH\\Views\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('detail.php', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('detail.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('2')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 21:48:06 --> Trying to access array offset on value of type null
+in APPPATH\Views\detail.php on line 8.
+ 1 APPPATH\Views\detail.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\detail.php', 8)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('detail.php', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('detail.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('public', 'FCPATH\\img', 'kerlip.jpg')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 21:51:02 --> Undefined array key "nama_artist"
+in APPPATH\Views\detail.php on line 48.
+ 1 APPPATH\Views\detail.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_artist"', 'APPPATH\\Views\\detail.php', 48)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('detail.php', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('detail.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 21:55:22 --> Attempt to read property "tgl" on array
+in APPPATH\Views\detail.php on line 55.
+ 1 APPPATH\Views\detail.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "tgl" on array', 'APPPATH\\Views\\detail.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('detail.php', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('detail.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 21:56:19 --> Undefined array key "nama_lokal"
+in APPPATH\Views\detail.php on line 71.
+ 1 APPPATH\Views\detail.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_lokal"', 'APPPATH\\Views\\detail.php', 71)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\detail.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('detail.php', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('detail.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->detail('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 22:01:08 --> Undefined variable $t
+in APPPATH\Views\rating.php on line 21.
+ 1 APPPATH\Views\rating.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $t', 'APPPATH\\Views\\rating.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\rating.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('rating.php', [], true)
+ 5 APPPATH\Controllers\Rating.php(23): view('rating.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 22:11:24 --> Too few arguments to function App\Controllers\Rating::index(), 0 passed in C:\xampp\htdocs\belaguApp\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Rating.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 22:17:08 --> Too few arguments to function App\Controllers\Rating::index(), 0 passed in C:\xampp\htdocs\belaguApp\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Rating.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 23:27:24 --> Too few arguments to function App\Controllers\Rating::index(), 0 passed in C:\xampp\htdocs\belaguApp\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Rating.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 23:27:40 --> Too few arguments to function App\Controllers\Rating::index(), 0 passed in C:\xampp\htdocs\belaguApp\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Rating.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Rating->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rating))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 23:42:34 --> Attempt to read property "id_ticket" on array
+in APPPATH\Views\home.php on line 56.
+ 1 APPPATH\Views\home.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id_ticket" on array', 'APPPATH\\Views\\home.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home.php', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('home.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-21 23:43:10 --> Undefined array key "id_ticket"
+in APPPATH\Views\home.php on line 56.
+ 1 APPPATH\Views\home.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_ticket"', 'APPPATH\\Views\\home.php', 56)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home.php', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('home.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
